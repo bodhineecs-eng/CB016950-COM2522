@@ -1,26 +1,26 @@
-<html>
-    <head>
-        <title>GreenBite</title>
-        <link rel="stylesheet" href="stylesheets/style2.css">
-        <link rel="icon" href="assects/images/logo2.png" type="image/png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-            
-            <header class="header">
-                <img src="assects/images/logo2.png" height="130px" width="130px" >
-                <div class="menu-bar" id="menu">
-                    <div class="hamburger">&#9776;</div>
-                    <a class="menu-items" href="index.html">Home</a>
-                    <a class="menu-items" href="receipy.html">Healthy Recipes</a>
-                    <a class="menu-items" href="cal.html">Calculator</a>
-                    <a class="menu-items" href="workout.html">Workout Generator</a>
-                    <a class="menu-items" href="meditation.html">Mindfulness</a>
-                    <a class="menu-items" href="contact.html">Contact</a>
-                    
-                </div>
-                
-            </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- MUST be inside head -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Calorie & Nutrition Calculator</title>
+    <link rel="stylesheet" href="stylesheets/style2.css">
+    <link rel="icon" href="assects/images/logo2.png" type="image/png">
+</head>
+<body>
+
+    <header class="header">
+        <img src="assects/images/logo2.png"  height="130" width="130" alt="GreenBite Logo">
+        <nav class="menu-bar">
+            <div class="hamburger">&#9776;</div>
+            <a class="menu-items" href="index.html">Home</a>
+            <a class="menu-items" href="receipy.html">Healthy Recipes</a>
+            <a class="menu-items" href="cal.html">Calculator</a>
+            <a class="menu-items" href="workout.html">Workout Generator</a>
+            <a class="menu-items" href="meditation.html">Mindfulness</a>
+            <a class="menu-items" href="contact.html">Contact</a>
+        </nav>
+    </header>
             <div class="image-top">
                 <img src="assects/images/food.jpg" alt="Healthy Recipes">
                 <div class="textOver">Healthy Recipes!</div>
@@ -38,7 +38,7 @@
             <div class="main">
             <div class="divh" data-category="Breakfast" onclick="showRecipe(1)">
             <div class="receipe" id="first">
-                <div class="img"><img src="assects/images/recipe-whole-wheat-wraps.jpg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/recipe-whole-wheat-wraps.jpg" alt="wraps" height="200" width="200"></div>
                 <div class="title">Whole Grain<br>Wrap</div>
                 <div class="dis">A soft, hearty wrap filled with fresh veggies and lean protein, tasty, wholesome, and perfect on the go!</div>
             </div>
@@ -46,7 +46,7 @@
 
             <div class="divf" data-category="Breakfast" onclick="showRecipe(2)">
             <div class="receipef">
-                <div class="img"><img src="assects/images/pumpkin-bread.jpg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/pumpkin-bread.jpg" alt="bread" height="200" width="200"></div>
                 <div class="titlef">Spongy<br>Pumpkin Bread</div>
                 <div class="disf">A soft, moist loaf with the rich sweetness of pumpkin and a hint of spice, a perfect healthy treat!</div>
             </div>
@@ -54,13 +54,12 @@
 
             <div class="divh" data-category="Breakfast" onclick="showRecipe(3)">
             <div class="receipe">
-                <div class="img"><img src="assects/images/kolakada.JPG" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/kolakada.JPG" alt="kolakada" height="200" width="200"></div>
                 <div class="title">Kola Kanda<br>(Herbal Porridge)</div>
                 <div class="dis">A soothing, herbal porridge made with leafy greens and rice, nourishing, light, and energizing for your day!</div>
             </div>
             </div>
 
-            </div>
             </div>
 
             <!-- lunch -->
@@ -69,7 +68,7 @@
 
             <div class="divf" data-category="Lunch" onclick="showRecipe(4)">
             <div class="receipef">
-                <div class="img"><img src="assects/images/COCONUT-MANGO-RICE.jpg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/COCONUT-MANGO-RICE.jpg" alt="MangoRice" height="200" width="200"></div>
                 <div class="titlef">Coconut & Mango<br>Brown Rice</div> 
                 <div class="disf">Fragrant brown rice tossed with sweet mango and creamy coconut, a tropical, healthy, and satisfying meal!</div>
             </div>
@@ -77,7 +76,7 @@
 
             <div class="divh" data-category="Lunch" onclick="showRecipe(5)">
             <div class="receipe">
-                <div class="img"><img src="assects/images/shushi.jpg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/shushi.jpg" alt="shushi" height="200" width="200"></div>
                 <div class="title">Wraped<br>Sushi Rolls </div>
                 <div class="dis">Fresh veggies and seasoned rice wrapped in nori, a colorful, healthy bite perfect for any time!</div>
             </div>
@@ -85,7 +84,7 @@
 
             <div class="divf" data-category="Lunch" onclick="showRecipe(6)">
             <div class="receipef">
-                <div class="img"><img src="assects/images/bowl-biryani-with-fish-top_.jpg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/bowl-biryani-with-fish-top_.jpg" alt="RiceFish" height="200" width="200"></div>
                 <div class="titlef">Spicy Brown Rice with<br>Grilled Fish</div>
                 <div class="disf">Flavorsome grilled fish atop hearty brown rice with a kick of spices, a satisfying, nutritious meal!</div>
             </div>
@@ -99,7 +98,7 @@
             
             <div class="divh" data-category="Dinner" onclick="showRecipe(7)">
             <div class="receipe">
-                <div class="img"><img src="assects/images/kale pasta.jpg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/kalepasta.jpg" alt="pasta" height="200" width="200"></div>
                 <div class="title">Kale<br>Pesto Pasta</div>
                 <div class="dis">Tender pasta tossed with vibrant kale pesto, a green, wholesome, and flavorful dish!</div>
             </div>
@@ -107,7 +106,7 @@
 
             <div class="divf" data-category="Dinner" onclick="showRecipe(8)">
             <div class="receipef">
-                <div class="img"><img src="assects/images/bel.jpeg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/bel.jpeg" alt="belpaper" height="200" width="200"></div>
                 <div class="titlef">Stuffed Bell Peppers<br>With Quinoa, Beans & Herbs</div>
                 <div class="disf">Colorful bell peppers filled with protein-rich quinoa, beans, and herbs!</div>
             </div>
@@ -115,7 +114,7 @@
 
             <div class="divh" data-category="Dinner" onclick="showRecipe(9)">
             <div class="receipe">
-                <div class="img"><img src="assects/images/las.jpeg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/las.jpeg" alt="lasanya" height="200" width="200"></div>
                 <div class="title">Eggplant<br>Lasagna </div>
                 <div class="dis">Layers of tender eggplant, fresh veggies, and savory sauce, a wholesome twist on classic lasagna.</div>
             </div>
@@ -127,7 +126,7 @@
             
             <div class="divh" data-category="Healty Treats" onclick="showRecipe(10)">
             <div class="receipe">
-                <div class="img"><img src="assects/images/cookiee.jpeg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/cookiee.jpeg" alt="cookies" height="200" width="200"></div>
                 <div class="title">Healthy<br>Oatmeal Cookies</div>
                 <div class="dis">A fresh nutritious pack of colorful fruits with unlimited honey, perfect for any meal!</div>
             </div>
@@ -135,7 +134,7 @@
 
             <div class="divf" data-category="Healty Treats" onclick="showRecipe(11)">
             <div class="receipef">
-                <div class="img"><img src="assects/images/carrot cake.jpeg" height=200px" width="200px"></div>
+                <div class="img"><img src="assects/images/carrotcake.jpeg" alt="cake" height="200" width="200"></div>
                 <div class="titlef">Soft<br>Carrot Cake</div>
                 <div class="disf">A moist, spiced carrot cake topped with light frosting—perfect for a healthy treat!</div>
             </div>
@@ -143,7 +142,7 @@
 
             <div class="divh" data-category="Healty Treats" onclick="showRecipe(12)">
             <div class="receipe">
-                <div class="img"><img src="assects/images/bars.jpg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/bars.jpg" alt="roadbars" height="200" width="200"></div>
                 <div class="title">Healty<br>Rockey Roadbars</div>
                 <div class="dis">A sweet and chewy treat packed with oats, nuts, and chocolate,perfect for a healthy snack!</div>
             </div>

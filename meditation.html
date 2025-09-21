@@ -1,28 +1,26 @@
-<html>
-    <head>
-        <title>GreenBite</title>
-        <link rel="stylesheet" href="stylesheets/style5.css">
-        <link rel="icon" href="assects/images/logo2.png" type="image/png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-            
-            <header class="header">
-                <img src="assects/images/logo2.png" height="130px" width="130px" >
-                <div class="hamburger" id="hamburger">&#9776;</div>
-                <div class="menu-bar">
-                <div class="menu-bar">
-                    <a class="menu-items" href="index.html">Home</a>
-                    <a class="menu-items" href="receipy.html">Healthy Recipes</a>
-                    <a class="menu-items" href="cal.html">Calculator</a>
-                    <a class="menu-items" href="workout.html">Workout Generator</a>
-                    <a class="menu-items" href="meditation.html">Mindfulness</a>
-                    <a class="menu-items" href="contact.html">Contact</a>
-                </div>
-              
-                
-                
-            </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- MUST be inside head -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Calorie & Nutrition Calculator</title>
+    <link rel="stylesheet" href="stylesheets/style3.css">
+    <link rel="icon" href="assects/images/logo2.png" type="image/png">
+</head>
+<body>
+
+    <header class="header">
+        <img src="assects/images/logo2.png"  height="130" width="130" alt="GreenBite Logo">
+        <nav class="menu-bar">
+            <div class="hamburger">&#9776;</div>
+            <a class="menu-items" href="index.html">Home</a>
+            <a class="menu-items" href="receipy.html">Healthy Recipes</a>
+            <a class="menu-items" href="cal.html">Calculator</a>
+            <a class="menu-items" href="workout.html">Workout Generator</a>
+            <a class="menu-items" href="meditation.html">Mindfulness</a>
+            <a class="menu-items" href="contact.html">Contact</a>
+        </nav>
+    </header>
             <div class="image-top">
                 <img src="assects/images/wall3.jpg" alt="Healthy Recipes">
                 <div class="textOver">Your carm Our happy!</div>
@@ -32,22 +30,32 @@
                 Whether you have 5 minutes or an hour, find the perfect way to relax and nurture your mind every day.</p>
             <h2 class="memo">Let's Begin!</h2><br>
         <div class="form">     
-        <div class="meditation">
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LiUnFJ8P4gM" 
-                title="Guided Breathing Video" frameborder="0" allow="accelerometer; autoplay; 
-                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> 
-                </iframe> 
-            
-                <img src="assects/images/meditation pic.jpg "height="315px" width="500px">
-                <div>
-                <label for="minutes">Minutes:</label> 
-                <input type="number" id="minutes" min="1" value="5"> <br>
-                <p>Time left: <span id="timeDisplay">00:00</span></p> <br>
-                <button id="startTimer">Start</button> <br><br> <button id="BiniTimer">Stop</button> <br><br>
-                <button id="PauseTimer">Pause</button> <br><br> <button id="ResumeTimer">Resume</button><br>
-                </div>
-        </div>
+<div class="meditation">
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/LiUnFJ8P4gM" 
+        title="Guided Breathing Video" 
+        style="border:0;" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe> 
+    
+    <img src="assects/images/meditation_pic.jpg" height="315" width="500" alt="Meditation Image">
+    
+    <div>
+        <label for="minutes">Minutes:</label> 
+        <input type="number" id="minutes" min="1" value="5"> <br>
+        
+        <p>Time left: <span id="timeDisplay">00:00</span></p> <br>
+        
+        <button id="startTimer">Start</button> <br><br> 
+        <button id="BiniTimer">Stop</button> <br><br>
+        <button id="PauseTimer">Pause</button> <br><br> 
+        <button id="ResumeTimer">Resume</button><br>
+    </div>
+</div>
+
         <h2>Meditation With sounds</h2>
         <div class="SoundBox">
             <p>🌊🪸🦈 Ocean:</p>
@@ -64,7 +72,7 @@
 
             <p>⛈️☔🌈Raining:</p>
                 <audio controls loop>
-                    <source src="assects/sounds/Rain and Thunder.mp3" type="audio/mp3">
+                    <source src="assects/sounds/Rain_and_Thunder.mp3" type="audio/mp3">
                     Your browser does not support the audio element.
                 </audio>
         </div>

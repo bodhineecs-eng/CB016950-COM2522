@@ -51,6 +51,12 @@ h1{
     font-size: 90px;
     margin: 20px;
 }
+
+.video-frame {
+    border: none;          /* removes border */
+    border-radius: 10px;   /* optional: rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* optional: shadow effect */
+}
 /*Menus*/
 
 
