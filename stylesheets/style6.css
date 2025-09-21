@@ -1,0 +1,142 @@
+/* Header */
+.header {
+  height: 130px;
+  width: 100%;
+  background-color: #6B8E23;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/* keep logo stuck to the left */
+.header img {
+  position: absolute;
+  left: 20px;   /* corner */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* center the menu bar */
+.menu-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: #8B5E3C;
+    height: 150px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;  /* spacing before footer */
+}
+
+.footer hr {
+    width: 90%;
+    margin: 5px auto;
+    border: 0.5px solid white;
+}
+
+/* body */
+body {
+    color: #2E5E36;          
+    margin: 0;               
+    background-color: #E6F0DA;
+    padding-top: 100px;   /* keep space for fixed header */
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family:EduNSWACTCursive-VariableFont_wght ;
+    src: url(../assects/fonts/EduNSWACTCursive-VariableFont_wght.ttf);
+}
+/*menu bar*/
+h1{
+    font-family: EduNSWACTCursive-VariableFont_wght;
+    font-size: 90px;
+    margin: 20px;
+}
+
+
+
+.menu-items{
+   margin: 20px;
+   height: 50px;
+   width: 110px;
+   color:#E6F0DA ;
+   cursor: pointer;
+   padding-top: 30px;
+   text-align: center;
+   border-radius: 2px;
+   font-family: Macondo-Regular;
+}
+
+.menu-items:hover{
+    color:  #8B5E3C ;
+   
+}
+
+/*contact details*/
+.contact{
+    font-size: 20px;
+    color: black;
+}
+.our{
+    font-size: 15px;
+    color: white;
+    display: flex;
+}
+
+.form{
+    border-radius: 5px;
+    border-color: #8B5E3C;
+    height: 100px;
+    width: 10px;
+}
+
+.answers{
+    color: black;
+}
+
+.ques{
+    height: 100px;
+    width: 500px;
+}
+.image-container {
+    position: relative;      /* Needed for absolute positioning */
+    display: inline-block;   /* Keeps the container tight to the image */
+}
+
+
+.textOver {
+    position: absolute;
+    bottom: 10px;       /* still from the bottom */
+    right: 100px;        /* push it to the right */
+    color: #E6F0DA;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.discription{
+    font-size: 20px;
+}
+.memo{
+    font-size: 30px;
+    color: #8B5E3C;
+}

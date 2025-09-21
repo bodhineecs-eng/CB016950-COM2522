@@ -1,0 +1,208 @@
+/* Header */
+.header {
+  height: 130px;
+  width: 100%;
+  background-color: #6B8E23;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/* keep logo stuck to the left */
+.header img {
+  position: absolute;
+  left: 20px;   /* corner */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* center the menu bar */
+.menu-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* body */
+body {
+    color: #2E5E36;          
+    margin: 0;               
+    background-color: #E6F0DA;
+    padding-top: 100px;   /* keep space for fixed header */
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/*fonts*/
+@font-face {
+    font-family:EduNSWACTCursive-VariableFont_wght ;
+    src: url(../assects/fonts/EduNSWACTCursive-VariableFont_wght.ttf);
+}
+
+
+h1{
+    font-family: EduNSWACTCursive-VariableFont_wght;
+    font-size: 90px;
+    margin: 20px;
+}
+/*Menus*/
+
+
+.menu-items{
+   margin: 20px;
+   height: 50px;
+   width: 110px;
+   color:#E6F0DA ;
+   cursor: pointer;
+   padding-top: 30px;
+   text-align: center;
+   border-radius: 2px;
+   font-family: Macondo-Regular;
+}
+
+.menu-items:hover{
+    color:  #8B5E3C ;
+   
+}
+/*sound boxes(sea,birds,rain)*/
+.SoundBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/*meditation image plus timer*/
+.meditation{
+    gap:20px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+/*image*/
+.image-container {
+    position: relative;      /* Needed for absolute positioning */
+    display: inline-block;   /* Keeps the container tight to the image */
+}
+
+/*text over image*/
+.textOver {
+    position: absolute;
+    bottom: 10px;       /* still from the bottom */
+    right: 100px;        /* push it to the right */
+    color: #E6F0DA;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 70px;
+    font-weight: bold;
+}
+/*discription*/
+.discription{
+    font-size: 20px;
+}
+/*welcome message*/
+.memo{
+    font-size: 30px;
+    color: #8B5E3C;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    background-color: #8B5E3C;
+    height: 150px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;  /* spacing before footer */
+}
+/* Fonts */
+
+@font-face {
+    font-family: Macondo-Regular;
+    src: url(../assects/fonts/Macondo-Regular.ttf);
+}
+
+.footer hr {
+    width: 90%;
+    margin: 5px auto;
+    border: 0.5px solid white;
+}
+/*contact details*/
+.contact{
+    font-size: 20px;
+    color: black;
+}
+.our{
+    font-size: 15px;
+    color: white;
+    display: flex;
+}
+
+/* form */
+.workout-container {
+    width: 90%;
+    max-width: 1200px;  
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Center the form nicely */
+.form {
+    width: 90%;
+    max-width: 900px;  
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #8B5E3C;
+    border-radius: 10px;
+    background-color: #E6F0DA;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form labels and inputs */
+.form label {
+    font-weight: bold;
+}
+
+.form input,
+.form select,
+.form button {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #8B5E3C;
+    box-sizing: border-box;
+}
+
+/* Button style */
+.form button {
+    background-color: #6B8E23;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #8B5E3C;
+}
+
+
+
+
+

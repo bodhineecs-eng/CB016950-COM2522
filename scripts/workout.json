@@ -1,0 +1,17 @@
+[
+    { "name": "Push-ups", "bodyPart": "arms", "equipment": "none", "duration": 30 },
+    { "name": "Bicep Curls", "bodyPart": "arms", "equipment": "dumbbells", "duration": 30 },
+    { "name": "Resistance Arm Press", "bodyPart": "arms", "equipment": "bands", "duration": 30 },
+
+    { "name": "Squats", "bodyPart": "legs", "equipment": "none", "duration": 45 },
+    { "name": "Dumbbell Lunges", "bodyPart": "legs", "equipment": "dumbbells", "duration": 40 },
+    { "name": "Band Leg Press", "bodyPart": "legs", "equipment": "bands", "duration": 40 },
+
+    { "name": "Chest Press-ups", "bodyPart": "chest", "equipment": "none", "duration": 35 },
+    { "name": "Dumbbell Chest Press", "bodyPart": "chest", "equipment": "dumbbells", "duration": 35 },
+    { "name": "Band Chest Fly", "bodyPart": "chest", "equipment": "bands", "duration": 35 },
+
+    { "name": "Plank", "bodyPart": "fullbody", "equipment": "none", "duration": 60 },
+    { "name": "Dumbbell Deadlift", "bodyPart": "fullbody", "equipment": "dumbbells", "duration": 60 },
+    { "name": "Band Mountain Climber", "bodyPart": "fullbody", "equipment": "bands", "duration": 50 }
+]

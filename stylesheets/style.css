@@ -1,0 +1,127 @@
+/* Header */
+.header {
+  height: 130px;
+  width: 100%;
+  background-color: #6B8E23;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+
+
+/* body */
+body {
+    color: #2E5E36;          
+    margin: 0;               
+    background-color: #E6F0DA;
+    padding-top: 100px;   /* keep space for fixed header */
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Tip of the day */
+.infor {
+  background-color: #E7FBE6;
+  height: 120px;
+  width: 100%;
+  color: #8B5E3C;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 15px;
+}
+.inform { font-size: 30px; color: #2E5E36; }
+
+/* Fonts */
+@font-face { font-family: EduNSWACTCursive-VariableFont_wght; src: url(../assects/fonts/EduNSWACTCursive-VariableFont_wght.ttf); }
+@font-face { font-family: Macondo-Regular; src: url(../assects/fonts/Macondo-Regular.ttf); }
+
+h1{
+  font-family: EduNSWACTCursive-VariableFont_wght;
+  font-size: 90px;
+  margin: 20px;
+}
+
+
+/* keep logo stuck to the left */
+.header img {
+  position: absolute;
+  left: 20px;   /* corner */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* center the menu bar */
+.menu-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.menu-items{
+   
+  margin: 20px;
+  height: 50px;
+  width: 110px;
+  color:#E6F0DA;
+  cursor: pointer;
+  padding-top: 30px;
+  text-align: center;
+  border-radius: 2px;
+  font-family: Macondo-Regular;
+}
+.menu-items:hover{ color: #8B5E3C; }
+
+/* image / hero */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.image-container img { border-radius: 10px; display: block; }
+
+/* overlay text */
+.textOver {
+  position: absolute;
+  bottom: 10px;
+  right: 100px;
+  color: #6B8E23;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 40px;            /* smaller for most screens */
+  font-weight: bold;
+  transition: opacity 0.35s ease-in-out, transform 0.35s ease;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+/* footer */
+.footer {
+    background-color: #8B5E3C;
+    height: 150px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;  /* spacing before footer */
+}
+
+.footer hr { 
+  width: 90%; margin: 5px auto; 
+  border: 0.5px solid white; 
+}
+.our {
+   font-size: 15px; 
+   color: white;
+    display: flex; 
+}

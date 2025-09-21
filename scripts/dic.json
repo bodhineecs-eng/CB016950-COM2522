@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "name": "🌯Whole Grain Wrap",
+    "ingredients": 
+["2 whole grain tortillas or wraps","½ cup cooked quinoa or brown rice","¼ cup grated carrots",
+"¼ cup sliced cucumber","¼ cup baby spinach leaves","2 tbsp hummus or Greek yogurt","1 tsp olive oil",
+"Salt and pepper to taste"],
+    "steps": ["Lay out the whole grain tortilla on a clean surface.","Spread hummus or Greek yogurt evenly over the wrap.",
+"Add cooked quinoa or brown rice in a line down the center.","Layer grated carrots, cucumber slices, and spinach leaves on top.",
+"Drizzle olive oil and season with salt and pepper.","Carefully roll the wrap tightly.",
+"Slice diagonally and serve fresh."],
+    "nutrition": {
+      "Calories": "220 kcal",
+      "Protein": "7g",
+      "Carbohydrates": "35g",
+      "Fat": "6g"
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "🎃Spongy Pumpkin Bread",
+    "ingredients": ["1 ¾ cups whole wheat flour (or all-purpose flour)","1 cup pumpkin purée (fresh or canned, unsweetened)",
+"2 large eggs","½ cup olive oil (or melted coconut oil)","½ cup honey (or brown sugar)","¼ cup milk (dairy or almond)",
+"1 tsp vanilla extract","1 tsp baking soda","½ tsp baking powder","½ tsp cinnamon powder","½ tsp nutmeg powder",
+"¼ tsp ground ginger","Pinch of salt"],
+    "steps": ["Preheat oven to 175°C (350°F). Grease and flour a loaf pan.","In a large bowl, whisk together pumpkin purée, eggs, oil, honey, milk, and vanilla until smooth.",
+"In another bowl, mix flour, baking soda, baking powder, cinnamon, nutmeg, ginger, and salt.","Slowly fold the dry ingredients into the wet mixture. Stir until just combined (don’t overmix).",
+"Pour the batter into the prepared loaf pan.","Bake for 50–60 minutes, or until a toothpick comes out clean.","Let it cool for 10–15 minutes before slicing..."],
+    "nutrition": {
+      "Calories": "220 kcal",
+      "Protein": "5g",
+      "Carbohydrates": "32g",
+      "Fat": "8g"
+    }
+  },
+
+    {
+    "id": 3,
+    "name": "🌿Kola Kada",
+    "ingredients": ["¼ cup red rice (washed and soaked)","1 liter water","1 tsp herbal mix (Gotukola, Welpenela, or any local leafy greens)",
+"½ tsp salt","1 tsp coconut milk (optional)","Jaggery or honey (optional, for sweetness)"],
+    "steps": ["Wash and soak the red rice for at least 30 minutes.","Boil 1 liter of water in a pot.",
+"Add the soaked rice and cook on medium heat until soft.","Blend or pound the herbal leaves into a fine paste.",
+"Add the herbal paste to the rice porridge.","Stir well and simmer for 5–10 minutes.","Add salt, coconut milk, or sweetener if desired.",
+"Serve hot."],
+    "nutrition": {
+      "Calories": "150 kcal",
+      "Protein": "5g",
+      "Carbohydrates": "28g",
+      "Fat": "3g"
+    }
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

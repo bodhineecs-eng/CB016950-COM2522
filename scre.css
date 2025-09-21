@@ -1,0 +1,180 @@
+.header {
+   height: 130px;
+   width: 100%;
+   background-color: #6B8E23; 
+   border-bottom: 2px solid black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 200;
+}
+
+.footer {
+   background-color: #8B5E3C;
+   height: 100px;
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   z-index: 200;
+}
+
+body {
+   color: #2E5E36;
+   margin: 0;
+   padding-top: 130px;
+   padding-bottom: 90px;
+   background-color: #E6F0DA;
+}
+
+@font-face {
+   font-family: "EduCursive";
+   src: url(../assects/fonts/EduNSWACTCursive-VariableFont_wght.ttf);
+}
+
+@font-face {
+   font-family: "Macondo";
+   src: url(../assects/fonts/Macondo-Regular.ttf);
+}
+
+h1 {
+   font-family: "EduCursive";
+   font-size: 90px;
+   margin: 20px;
+}
+
+.menu-bar {
+   display: flex;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.menu-items {
+   margin: 20px;
+   height: 50px;
+   width: 110px;
+   color: #E6F0DA;
+   cursor: pointer;
+   padding-top: 30px;
+   text-align: center;
+   border-radius: 2px;
+   font-family: "Macondo";
+}
+
+.menu-items:hover {
+   color: #8B5E3C;
+}
+
+.contact {
+   font-size: 20px;
+   color: black;
+}
+
+.our {
+   font-size: 15px;
+   color: white;
+   display: flex;
+}
+
+.divh {
+   background-color: #6B8E23;
+   height: 400px;
+   width: 350px;
+   margin: 20px;
+   padding-top: 10px;
+}
+
+.receipe {
+   background-color: #E6F0DA;
+   border: 3px solid white;
+   height: 350px;
+   width: 300px;
+   margin: 20px;
+   border-radius: 2px;
+}
+
+.title {
+   font-size: 30px;
+   color: #6B8E23;
+}
+
+.dis {
+   font-size: 15px;
+   color: black;
+}
+
+.divf {
+   background-color: #8B5E3C;
+   height: 400px;
+   width: 350px;
+   margin: 20px;
+   padding-top: 10px;
+}
+
+.receipef {
+   background-color: #E6F0DA;
+   border: 3px solid white;
+   height: 350px;
+   width: 300px;
+   margin: 20px;
+   border-radius: 2px;
+}
+
+.titlef {
+   font-size: 30px;
+   color: #8B5E3C;
+}
+
+.disf {
+   font-size: 15px;
+   color: black;
+}
+
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 20px;
+   padding: 10px;
+}
+
+.image-container {
+   position: relative;
+   display: inline-block;
+}
+
+.image-container img {
+   border-radius: 10px;
+}
+
+.textOver {
+   position: absolute;
+   bottom: 10px;
+   right: 100px;
+   color: white;
+   padding: 8px 12px;
+   border-radius: 8px;
+   font-size: 100px;
+   font-weight: bold;
+}
+
+.discription {
+   font-size: 20px;
+}
+
+.memo {
+   font-size: 30px;
+   color: #8B5E3C;
+}
+
+.hihi {
+    background-color: blue;
+    border: black solid 1px;
+    min-height: 1em;
+    width: 32em;
+}

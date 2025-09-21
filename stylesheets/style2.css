@@ -1,0 +1,261 @@
+/* body */
+body {
+    color: #2E5E36;          
+    margin: 0;               
+    background-color: #E6F0DA;
+    padding-top: 100px;   /* keep space for fixed header */
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*fonts*/
+@font-face {
+    font-family:EduNSWACTCursive-VariableFont_wght ;
+    src: url(../assects/fonts/EduNSWACTCursive-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Macondo-Regular;
+    src: url(../assects/fonts/Macondo-Regular.ttf);
+}
+h1{
+    font-family: EduNSWACTCursive-VariableFont_wght;
+    font-size: 90px;
+    margin: 20px;
+}
+/* Header */
+.header {
+  height: 130px;
+  width: 100%;
+  background-color: #6B8E23;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/* keep logo stuck to the left */
+.header img {
+  position: absolute;
+  left: 20px;   /* corner */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* center the menu bar */
+.menu-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.menu-items{
+   margin: 20px;
+   height: 50px;
+   width: 110px;
+   color:#E6F0DA ;
+   cursor: pointer;
+   padding-top: 30px;
+   text-align: center;
+   border-radius: 2px;
+   font-family: Macondo-Regular;
+}
+
+.menu-items:hover{
+    color:  #8B5E3C ;
+   
+}
+/*contact details*/
+.contact{
+    font-size: 20px;
+    color: black;
+}
+.our{
+    font-size: 15px;
+    color: white;
+    display: flex;
+}
+
+.divh{
+    background-color: #6B8E23;
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+    padding-top: 10;
+}
+.receipe{
+    background-color: #E6F0DA;
+    border: 3px sloid white;
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 2px;
+}
+.img{
+    margin-top: 10px;
+}
+.title{
+    font-size: 30px;
+    color: #6B8E23;
+    
+}
+.dis{
+    font-size: 15px;
+    color: black;
+}
+
+.divf{
+    background-color: #8B5E3C;
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+    padding-top: 10;
+}
+.receipef{
+    background-color:#E6F0DA;
+    border: 3px sloid white;
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 2px;
+}
+.img{
+    margin-top: 10px;
+}
+.titlef{
+    font-size: 30px;
+    color: #8B5E3C;
+    
+}
+.disf{
+    font-size: 15px;
+    color: black;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;   /* allows wrapping to next line */
+    justify-content: center; /* centers the items */
+    gap: 20px;         /* spacing between recipe cards */
+    margin-top: 20px;
+    padding: 10;
+}
+.image-container {
+    position: relative;      /* Needed for absolute positioning */
+    display: inline-block;   /* Keeps the container tight to the image */
+}
+
+
+.textOver {
+    position: absolute;
+    bottom: 10px;       /* still from the bottom */
+    right: 100px;        /* push it to the right */
+    color: #E6F0DA;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.discription{
+    font-size: 20px;
+}
+.memo{
+    font-size: 30px;
+    color: #8B5E3C;
+}
+
+/* footer */
+.footer {
+    background-color: #8B5E3C;
+    height: 150px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;  /* spacing before footer */
+}
+
+.footer hr {
+    width: 90%;
+    margin: 5px auto;
+    border: 0.5px solid white;
+}
+
+
+/* Modal background */
+.modal {
+    display: none; /* hidden by default */
+    position: fixed;
+    z-index: 100; /* on top of everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* Modal content box */
+.modal-content {
+    background-color: #E6F0DA;
+    margin: 10% auto;
+    padding: 20px;
+    border: 2px solid #6B8E23;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* Close button */
+.close {
+    color: #6B8E23;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover {
+    color: #8B5E3C;
+}
+
+.search-container{
+    text-align:center; 
+    margin:20px;
+}
+
+/* Modal overlay */
+.modal {
+  display: none; /*hidden*/
+  position: fixed;
+  z-index: 1000; /*need to show it above*/
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Modal box */
+.modal-content {
+  background-color: #E6F0DA;
+  margin: 8% auto;
+  padding: 20px;
+  border: 2px solid #6B8E23;
+  width: 60%;
+  border-radius: 10px;
+}
+
+/* Close button */
+.close {
+  color: #6B8E23;
+  font-size: 30px;
+  cursor: pointer;
+}
+.close:hover {
+  color: #8B5E3C;
+}

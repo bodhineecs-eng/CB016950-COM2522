@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>GreenBite</title>
+        <link rel="stylesheet" href="stylesheets/style4.css">
+        <link rel="icon" href="assects/images/logo2.png" type="image/png">
+
+    </head>
+    <body>
+            <header class="header">
+                <img src="assects/images/logo2.png" height="130px" width="130px" >
+                <div class="menu-bar">
+                    <a class="menu-items" href="index.html">Home</a>
+                    <a class="menu-items" href="receipy.html">Healthy Recipes</a>
+                    <a class="menu-items" href="cal.html">Calculator</a>
+                    <a class="menu-items" href="workout.html">Workout Generator</a>
+                    <a class="menu-items" href="meditation.html">Mindfulness</a>
+                    <a class="menu-items" href="contact.html">Contact</a>
+                </div>
+                
+              
+                
+                
+            </header>
+
+            <div class="image-container">
+                    <img src="assects/images/exe.jpg" alt="Workout" height="535px" width="1590px"> 
+                    <div class="textOver">Workout Hub!</div>
+            </div>
+            <p class="discription">Welcome to GreenBite's Workout Hub! Your Personalized Fitness Partner. Stay strong, healthy, and active with workouts designed just for you. Whether you’re targeting arms, legs, core, or going full body, our Workout Generator gives you customized plans, anytime!
+            No equipment? No problem! Choose your preference and start your journey to a healthier lifestyle today</p>
+            <h2 class="memo">Lets start!</h2><br>
+            
+
+            <div class="form">
+                <h3><u>Calculate your daily workout needs to stay fit and active.</u></h3>
+            <div class="left">
+                <h3>Select Body Part(s)</h3>
+                <label><input type="checkbox" name="bodypart" value="arms"> Arms</label>
+                <label><input type="checkbox" name="bodypart" value="legs"> Legs</label>
+                <label><input type="checkbox" name="bodypart" value="chest"> Chest</label>
+                <label><input type="checkbox" name="bodypart" value="fullbody"> Full Body</label><br>
+
+            <h3>Select Equipment</h3>
+            <select id="equipment">
+                <option value="">-- Choose Equipment --</option>
+                <option value="none">No Equipment</option>
+                <option value="dumbbells">Dumbbells</option>
+                <option value="bands">Resistance Bands</option>
+            </select>
+            </div>
+            
+            <br><br>
+            <button id="generateBtn">Generate Workout</button>
+
+            <h3>Workout Plan:</h3>
+                <ul id="workoutList"></ul>
+
+            <h3>Countdown:</h3>
+                <p id="timer">00:00</p>
+                <button id="pauseBtn">Pause</button>
+                <button id="resumeBtn">Resume</button>
+
+            <audio id="beepSound" src="assects/sounds/beep.mp3"></audio>
+            </div>
+            <footer>
+                <div class="footer">
+                    <div class="our">C© 2025 GreenBite. All rights reserved.: </div><hr>
+                    <div class="Contact">Contact Details</div>
+                    <div class="our">Telephone No:071-569-1325</div>
+                    <div class="our">Email:GreenBit@gmail.com</div>
+                </div>
+            <script src="scripts/4dryrun.js"></script>
+            </footer>
+            
+    </body>
+</html>
+ 
