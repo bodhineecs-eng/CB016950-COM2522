@@ -52,19 +52,23 @@ function closeModal() {
   document.getElementById("recipe-modal").style.display = "none";//Changes the CSS display property to none.Effectively hides the modal from the screen.
 }
 
-// Search recipes by name or category
 function searchRecipes() {
     const input = document.getElementById("searchInput").value.toLowerCase();
     const allRecipes = document.querySelectorAll(".receipe, .receipef");
 
     allRecipes.forEach(recipe => {
-        const title = recipe.querySelector(".title, .titlef").textContent.toLowerCase();
-        const category = recipe.dataset.category.toLowerCase();
-        
+        // Get title
+        let titleElement = recipe.querySelector(".title") || recipe.querySelector(".titlef");
+        const title = titleElement.textContent.toLowerCase();
+
+        // Get category from parent div
+        const category = recipe.parentElement.dataset.category.toLowerCase();
+
+        // Show or hide
         if (title.includes(input) || category.includes(input)) {
-            recipe.parentElement.style.display = "block"; // show parent div
+            recipe.parentElement.style.display = "block";
         } else {
-            recipe.parentElement.style.display = "none"; // hide parent div
+            recipe.parentElement.style.display = "none";
         }
     });
 }
