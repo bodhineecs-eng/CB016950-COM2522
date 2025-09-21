@@ -58,3 +58,30 @@ resumeBtn.addEventListener("click", () => {
         isPaused = false;
     }
 });
+
+const hamburger = document.getElementById('hamburger');
+const menuBar = document.getElementById('menu-bar');
+
+hamburger.addEventListener('click', () => {
+    menuBar.classList.toggle('show');
+});
+
+// Completed button
+const completedBtn = document.getElementById("completeBtn");
+
+// Track completed sessions in localStorage
+completedBtn.addEventListener("click", () => {
+    // Get current count from localStorage (or start at 0)
+    let completedSessions = localStorage.getItem("completedSessions") 
+        ? parseInt(localStorage.getItem("completedSessions")) 
+        : 0;
+
+    // Increase by 1
+    completedSessions++;
+
+    // Save back to localStorage
+    localStorage.setItem("completedSessions", completedSessions);
+
+    // Show user feedback
+    alert(`✅ Great job! You have completed ${completedSessions} meditation session(s).`);
+});

@@ -10,15 +10,72 @@
   left: 0;
   z-index: 10;
 }
+
 /* keep logo stuck to the left */
 .header img {
   position: absolute;
   left: 20px;   /* corner */
   top: 35%;
-  transform: translateY(-50%);
+  transform: translateY(-50%);/*vertically center the logo*/
 }
 
-/* center the menu bar */
+/* Container for the top image */
+.image-top {
+    position: relative;   /* needed for absolute text overlay */
+    width: 100%;          /* full width of parent */
+    overflow: hidden;     /* prevents scrollbars */
+}
+
+/* Image itself */
+.image-top img {
+    width: 100%;          /* scale to container width */
+    height: 650px;         /* maintain aspect ratio */
+    display: block;       /* removes bottom gap */
+}
+
+/* Text overlay */
+.textOver {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;  /* adjust as needed */
+    color: #E6F0DA;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+/*discription*/
+.discription{
+    font-size: 20px;
+}
+
+/*welcome message*/
+.memo{
+    text-align: center;
+    font-size: 30px;
+    color: #8B5E3C;
+}
+
+/* body */
+body {
+    color: #2E5E36;          
+    margin: 0;               
+    background-color: #E6F0DA;
+    padding-top: 100px;   /* keep space for fixed header */
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* description-welcome message */
+.discription {
+    font-size: 20px;
+
+}
+
+/* the menu bar */
 .menu-bar {
   flex: 1;
   display: flex;
@@ -26,25 +83,6 @@
   font-size: 20px;
   font-weight: bold;
 }
-
-
-/* Fonts */
-@font-face {
-    font-family:EduNSWACTCursive-VariableFont_wght ;
-    src: url(../assects/fonts/EduNSWACTCursive-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: Macondo-Regular;
-    src: url(../assects/fonts/Macondo-Regular.ttf);
-}
-/* menu bar */
-h1{
-    font-family: EduNSWACTCursive-VariableFont_wght;
-    font-size: 90px;
-    margin: 20px;
-}
-
 
 .menu-items{
    margin: 20px;
@@ -55,12 +93,23 @@ h1{
    padding-top: 30px;
    text-align: center;
    border-radius: 2px;
-   font-family: Macondo-Regular;
+   text-decoration: none;
 }
 
 .menu-items:hover{
     color:  #8B5E3C ;
    
+}
+
+/* Fonts */
+@font-face {
+    font-family:EduNSWACTCursive-VariableFont_wght ;
+    src: url(../assects/fonts/EduNSWACTCursive-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Macondo-Regular;
+    src: url(../assects/fonts/Macondo-Regular.ttf);
 }
 
 
@@ -97,35 +146,8 @@ h1{
 }
 
 
-/* body */
-body {
-    color: #2E5E36;          
-    margin: 0;               
-    background-color: #E6F0DA;
-    padding-top: 100px;   /* keep space for fixed header */
-    font-family: Arial, sans-serif;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
-/* description */
-.discription {
-    font-size: 20px;
-
-
-}
-
 /* form */
-.workout-container {
-    width: 90%;
-    max-width: 1200px;  
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
 
-/* Center the form nicely */
 .form {
     width: 90%;
     max-width: 800px;  
@@ -180,36 +202,56 @@ body {
     border: 1px solid #8B5E3C;
 }
 
-/* Image(childran) */
+/* Image(children) */
 img {
-    display: block;
-    margin: 20px auto;
+    display: block;/*makes the image behave like a block element:*/
+    margin: 20px auto; /*make the image center*/
 }
 
-/*image*/
-.image-container {
-    position: relative;      /* Needed for absolute positioning */
-    display: inline-block;   /* Keeps the container tight to the image */
+/* Hamburger menu for mobile */
+.hamburger {
+    display: none; /* hidden by default */
 }
 
-/*text over image*/
-.textOver {
-    position: absolute;
-    bottom: 10px;       /* still from the bottom */
-    right: 100px;        /* push it to the right */
-    color: #E6F0DA;
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-size: 70px;
-    font-weight: bold;
+/* Mobile View */
+@media (max-width: 900px) {
+    .menu-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .menu-items {
+        display: none;      /* hide menu items by default */
+        width: 100%;
+        padding: 10px 20px;
+        border-bottom: 1px solid #8B5E3C;
+    }
+
+    .menu-items.active {
+        display: block;     /* show when hamburger clicked */
+    }
+
+    .hamburger {
+        display: block;     /* show hamburger */
+    }
+
+    .header img {
+        height: 100px;
+        width: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .textOver {
+        font-size: 30px;    /* smaller on mobile */
+        right: 20px;
+        bottom: 10px;
+    }
+
+    .form {
+        width: 95%;         /* make form responsive */
+        margin: 20px auto;
+    }
 }
-/*discription*/
-.discription{
-    font-size: 20px;
-}
-/*welcome message*/
-.memo{
-    text-align: center;
-    font-size: 30px;
-    color: #8B5E3C;
-}
+

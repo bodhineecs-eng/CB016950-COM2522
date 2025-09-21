@@ -51,8 +51,386 @@
       "Carbohydrates": "28g",
       "Fat": "3g"
     }
+  },
+
+      {
+    "id": 4,
+    "name": "🌾Coconut & Mango Brown Rice",
+    "ingredients": ["1 cup brown rice","1 cup coconut milk (light or regular)","1 cup water","1 ripe mango (peeled and diced)",
+"1 tbsp coconut oil (or olive oil)","1 tbsp honey or maple syrup (optional)","A pinch of salt","Fresh mint or shredded coconut for garnish (optional)"],
+    "steps": ["Rinse brown rice under cold water.","In a saucepan, add rice, coconut milk, water, and salt.",
+"Bring to a boil, then reduce heat to low, cover, and simmer for 35–40 minutes until rice is tender and liquid absorbed.",
+"Dice ripe mango into small cubes.","Once rice is cooked, fluff with a fork.","Stir in coconut oil and honey/maple syrup (if using).",
+"Stir in coconut oil and honey/maple syrup (if using).","Garnish with mint leaves or shredded coconut."],
+    "nutrition": {
+      "Calories": "320 kcal",
+      "Protein": "5g",
+      "Carbohydrates": "55g",
+      "Fat": "9g"
+    }
+  },
+
+  {
+    "id": 5,
+    "name": "🍣Maki Sushi",
+    "ingredients":  ["2 cups sushi rice (short-grain)","2 ½ cups water","3 tbsp rice vinegar","1 tbsp sugar","1 tsp salt",
+"4 nori sheets (seaweed)","1 cucumber (sliced into thin sticks)","1 carrot (julienned)","1 avocado (sliced)",
+"Soy sauce, wasabi, and pickled ginger (for serving)"],
+
+    "steps": ["Rinse sushi rice well until water runs clear.","Cook with water (rice cooker or pot).","Once cooked, mix gently with rice vinegar, sugar, and salt. Let cool to room temp.",
+"Place a nori sheet (shiny side down) on a bamboo mat (or a clean towel wrapped in cling film).","With wet hands, spread a thin, even layer of rice over ⅔ of the nori sheet.",
+"Lay cucumber, carrot, and avocado in a line across the bottom third.","Roll tightly using the bamboo mat, sealing the edge with a little water.",
+"Cut into 6 pieces with a sharp, wet knife.","Serve with soy sauce, wasabi, and pickled ginger."],
+    "nutrition": {
+      "Calories": "180 kcal",
+      "Protein": "4g",
+      "Carbohydrates": "36g",
+      "Fat": "3g"
+    }
+  },
+
+  {
+    "id": 6,
+    "name": "🐟Spicy Brown Rice with Grilled Fish",
+    "ingredients": ["1 cup brown rice","2 cups water (or broth)","2 medium fish fillets (salmon, tuna, or any white fish)","1 tbsp olive oil"
+,"1 clove garlic (minced)","1 tsp lemon juice","½ tsp black pepper","½ tsp salt","Fresh herbs (parsley, dill, or coriander) for garnish",
+"Steamed veggies (optional: broccoli, beans, carrots)"],
+
+    "steps": ["Rinse rice and cook with water/broth until tender (35–40 minutes).","Mix olive oil, garlic, lemon juice, salt, and pepper.",
+"Brush over fish fillets and let sit for 10–15 mins.","Heat a grill pan or outdoor grill.","Cook fish for 3–4 minutes per side until cooked through and lightly charred.",
+"Place a scoop of brown rice on the plate.","Top with grilled fish.","Add steamed veggies and garnish with herbs."],
+    "nutrition": {
+      "Calories": "390 kcal",
+      "Protein": "32g",
+      "Carbohydrates": "42g",
+      "Fat": "12g"
+    }
+  },
+
+    {
+    "id": 7,
+    "name": "🍝Kale Pesto Pasta",
+    "ingredients":["250 g pasta (whole wheat or regular)","2 cups fresh kale leaves (washed, stems removed)",
+"½ cup fresh basil (optional, for extra flavor)","⅓ cup olive oil","¼ cup walnuts (or pine nuts/almonds)",
+"2 cloves garlic","¼ cup Parmesan cheese (or nutritional yeast for vegan)","Juice of ½ lemon","Salt & black pepper to taste"],
+    "steps": ["Boil pasta in salted water until al dente. Reserve ½ cup pasta water.","In a blender/food processor, add kale, walnuts, garlic, Parmesan, lemon juice, and olive oil.",
+"Blend until smooth, adding a splash of pasta water if needed.","Season with salt and pepper.",
+"Toss cooked pasta with kale pesto.","Adjust consistency with reserved pasta water.","Top with extra Parmesan, walnuts, or a drizzle of olive oil."],
+    "nutrition": {
+      "Calories": "420 kcal",
+      "Protein": "13g",
+      "Carbohydrates": "50g",
+      "Fat": "20g"
+    }
+  },
+  
+{
+    "id": 8,
+    "name": "😋Stuffed Bell Peppers With Quinoa, Beans & Herbs",
+    "ingredients":["4 large bell peppers (any color, tops cut, seeds removed)","1 cup quinoa (uncooked)",
+"2 cups vegetable broth (for cooking quinoa)","1 cup cooked beans (black beans, kidney, or chickpeas)","1 medium onion (finely chopped)",
+"2 cloves garlic (minced)","1 tbsp olive oil","1 tsp cumin powder","1 tsp paprika (optional smoky flavor)",
+"2 tbsp fresh parsley (or cilantro, chopped)","2 tbsp fresh basil (optional)","Salt & pepper to taste",
+"½ cup shredded cheese (optional topping, or vegan cheese/nutritional yeast)"],
+    "steps": ["Rinse quinoa, then cook with vegetable broth until fluffy (~15 minutes).","Heat olive oil in a pan, sauté onion & garlic until golden.","Add beans, cooked quinoa, cumin, paprika, salt, and pepper.",
+"Mix in fresh herbs.","Preheat oven to 180°C (350°F).","Fill each bell pepper with the quinoa-bean mixture.",
+"Top with cheese if desired.","Place peppers upright in a baking dish, cover with foil.","Bake for 25–30 minutes (last 5 minutes uncovered if using cheese).",
+"Garnish with extra herbs and serve warm with a side salad."],
+    "nutrition": {
+      "Calories": "280 kcal",
+      "Protein": "11g",
+      "Carbohydrates": "40g",
+      "Fat": "7g"
+    }
+  },
+
+  {
+    "id": 9,
+    "name": "🍛Eggplant Lasagna",
+    "ingredients":["2 large eggplants (sliced lengthwise, ~½ inch thick)",
+"2 cups marinara sauce (homemade or store-bought)","1 cup ricotta cheese (or cottage cheese)","1 cup shredded mozzarella",
+"½ cup grated Parmesan","1 egg (to mix with ricotta, optional)","2 tbsp olive oil","2 cloves garlic (minced)",
+"1 tsp dried oregano","1 tsp dried basil","Salt & black pepper to taste","Fresh basil leaves (for garnish)"],
+    "steps": ["Slice eggplants, sprinkle lightly with salt, and let sit 15 mins (removes excess moisture & bitterness).",
+"Pat dry with a paper towel.","Brush with olive oil and roast/grill slices for ~10 minutes until tender.","In a bowl, combine ricotta, egg (if using), half the Parmesan, oregano, salt, and pepper.",
+"Preheat oven to 180°C (350°F).","Spread a thin layer of marinara in a baking dish.","Add a layer of eggplant slices → ricotta mixture → marinara → mozzarella.",
+"Repeat layers until ingredients are used up.","Finish with mozzarella + Parmesan on top.","Cover with foil and bake 25 minutes.",
+"Remove foil, bake another 10–15 minutes until golden and bubbly.","Let rest 5–10 minutes before slicing.","Garnish with fresh basil."],
+    "nutrition": {
+      "Calories": "290 kcal",
+      "Protein": "15g",
+      "Carbohydrates": "16g",
+      "Fat": "18g"
+    }
+  },
+
+   {
+    "id": 10,
+    "name": "🍪Healthy Oatmeal Cookies",
+    "ingredients":["1 ½ cups rolled oats","¾ cup whole wheat flour (or almond flour for GF)","½ tsp baking soda","½ tsp cinnamon",
+"Pinch of salt","⅓ cup coconut oil (melted) or olive oil","⅓ cup honey or maple syrup","1 egg (or flax egg for vegan: 1 tbsp flaxseed + 3 tbsp water)",
+"1 tsp vanilla extract","½ cup raisins or dark chocolate chips (optional)","¼ cup chopped nuts (walnuts, almonds, or pecans – optional)"],
+    "steps": 
+["In a bowl, combine oats, flour, baking soda, cinnamon, and salt.","In another bowl, whisk oil, honey/maple syrup, egg, and vanilla.",
+"Add dry mixture to wet, stir until just combined.","Fold in raisins/chocolate chips and nuts (if using).",
+"Preheat oven to 175°C (350°F).","Line a baking tray with parchment paper.","Scoop dough into 12 balls, flatten slightly."],
+
+    "nutrition": {
+      "Calories": "140 kcal",
+      "Protein": "3g",
+      "Carbohydrates": "19g",
+      "Fat": "6g"
+    }
+  },
+
+  {
+    "id": 11,
+    "name": "🎂🍰Soft Carrot Cake",
+    "ingredients": ["1 ½ cups whole wheat flour (or all-purpose)","1 ½ tsp baking powder","½ tsp baking soda","1 tsp cinnamon",
+  "½ tsp nutmeg (optional)","Pinch of salt","2 cups grated carrots","½ cup olive oil or melted coconut oil",
+  "½ cup honey or maple syrup (or brown sugar)","2 eggs (or flax eggs for vegan)","1 tsp vanilla extract","½ cup crushed pineapple (drained, optional – adds moisture)",
+  "¼ cup chopped walnuts or pecans (optional)"],
+      "steps": ["Preheat oven to 175°C (350°F). Grease and line a round cake tin.","In a bowl, mix flour, baking powder, baking soda, cinnamon, nutmeg, and salt.",
+ "In another bowl, whisk eggs, oil, honey/maple syrup, and vanilla.","Add grated carrots (and pineapple if using).",
+ "Fold wet mix into dry ingredients until just combined. Stir in nuts if desired.","Pour batter into tin.","Bake 30–35 minutes, until a toothpick comes out clean.",
+ "Let cool completely before frosting.","Beat cream cheese with honey and vanilla until smooth.","Spread over cooled cake."],
+    "nutrition": {
+      "Calories": "210 kcal",
+      "Protein": "4g",
+      "Carbohydrates": "28g",
+      "Fat": "10g"
+    }
+  },
+
+  {
+    "id": 12,
+    "name": "🍫Healty Rockey Roadbars",
+    "ingredients": ["1 ½ cups rolled oats (or crushed whole-grain biscuits)","½ cup nut butter (peanut, almond, or cashew)","¼ cup honey or maple syrup",
+"¼ cup coconut oil (melted)","2 tbsp cocoa powder","½ cup dark chocolate chips (70% cocoa, melted)","½ cup mini marshmallows (or sugar-free alternative)",
+"¼ cup chopped nuts (almonds, walnuts, or hazelnuts)","¼ cup dried fruit (cranberries, raisins, or cherries)","Pinch of salt"],
+      "steps": 
+["In a saucepan, melt nut butter, honey, and coconut oil until smooth.","Stir in cocoa powder and a pinch of salt.",
+"In a large bowl, combine oats, melted chocolate, nuts, dried fruit, and marshmallows.","Pour the wet mixture over and mix well.",
+"Line a square baking dish with parchment paper.","Press mixture firmly into the dish.","Refrigerate for at least 2 hours (or freeze 30 mins) until firm.",
+"Slice into bars. Store in fridge (lasts ~1 week)."],
+
+    "nutrition": {
+      "Calories": "180 kcal",
+      "Protein": "4g",
+      "Carbohydrates": "20g",
+      "Fat": "9g"
+    }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

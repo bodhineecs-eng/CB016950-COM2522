@@ -1,8 +1,16 @@
+const hamburger = document.querySelector('.hamburger');
+const menuItems = document.querySelectorAll('.menu-items');
+
+hamburger.addEventListener('click', () => {
+    menuItems.forEach(item => item.classList.toggle('active'));
+});
+
+
 function showRecipe(recipeId) {
   fetch("scripts/dic.json")
     .then(res => res.json())
     .then(data => {
-      const recipe = data.find(r => r.id == recipeId);
+      const recipe = data.find(r => r.id == recipeId);//id given to the receipy in html
       if (!recipe) return;
 
       const modalContent = document.getElementById("modal-content");
@@ -35,10 +43,28 @@ function showRecipe(recipeId) {
         </table>
       `;
 
-      document.getElementById("recipe-modal").style.display = "block";
+      document.getElementById("recipe-modal").style.display = "block";//access to modal container that will show the recipe details.
+      //Changes the CSS display property of the modal from none (hidden) to block (visible).Effectively makes the modal appear on the screen.
     });
 }
 
 function closeModal() {
-  document.getElementById("recipe-modal").style.display = "none";
+  document.getElementById("recipe-modal").style.display = "none";//Changes the CSS display property to none.Effectively hides the modal from the screen.
+}
+
+// Search recipes by name or category
+function searchRecipes() {
+    const input = document.getElementById("searchInput").value.toLowerCase();
+    const allRecipes = document.querySelectorAll(".receipe, .receipef");
+
+    allRecipes.forEach(recipe => {
+        const title = recipe.querySelector(".title, .titlef").textContent.toLowerCase();
+        const category = recipe.dataset.category.toLowerCase();
+        
+        if (title.includes(input) || category.includes(input)) {
+            recipe.parentElement.style.display = "block"; // show parent div
+        } else {
+            recipe.parentElement.style.display = "none"; // hide parent div
+        }
+    });
 }

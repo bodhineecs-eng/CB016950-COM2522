@@ -6,9 +6,11 @@
   <title>GreenBite</title>
   <link rel="stylesheet" href="stylesheets/style.css">
   <link rel="icon" href="assects/images/logo2.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
   <header class="header">
+    <div class="hamburger" id="hamburger">&#9776;</div>
     <img src="assects/images/logo2.png" height="130" width="130" alt="logo">
     <div class="menu-bar">
       <a class="menu-items" href="index.html">Home</a>
@@ -21,17 +23,16 @@
     
   </header>
 
-  <main>
+  <div class="hero-section">
     <div class="image-container">
-      <img src="assects/images/runing.jpg" alt="Workout" height="500" width="1590">
-      <div class="textOver">Wellness is a journey, not a goal.</div>
+        <img src="assects/images/runing.jpg" alt="Workout">
+        <div class="textOver">Wellness is a journey, not a goal.</div>
     </div>
-
     <div class="infor">
-      Tip of the day
-      <p class="inform" id="tipOfTheDay">drink 8 glasses of water!</p>
+        Tip of the day <br><span class="inform" id="tipOfTheDay">Drink 8 glasses of water!</span>
+        
     </div>
-  </main>
+</div>
 
   <footer>
     <div class="footer">
@@ -47,4 +48,3 @@
   <script src="scripts/1main.js"></script>
 </body>
 </html>
-

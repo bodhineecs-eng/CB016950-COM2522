@@ -77,3 +77,11 @@ function Tdee() {
     animateCounter(document.getElementById("proteinCounter"), protein);
     animateCounter(document.getElementById("fatCounter"), fat);
 }
+
+// Hamburger toggle
+const hamburger = document.querySelector('.hamburger');
+const menuItems = document.querySelectorAll('.menu-items');
+
+hamburger.addEventListener('click', () => {
+    menuItems.forEach(item => item.classList.toggle('active'));
+});

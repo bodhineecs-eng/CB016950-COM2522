@@ -3,28 +3,29 @@
         <title>GreenBite</title>
         <link rel="stylesheet" href="stylesheets/style2.css">
         <link rel="icon" href="assects/images/logo2.png" type="image/png">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
             
             <header class="header">
                 <img src="assects/images/logo2.png" height="130px" width="130px" >
-                <div class="menu-bar">
-
+                <div class="menu-bar" id="menu">
+                    <div class="hamburger">&#9776;</div>
                     <a class="menu-items" href="index.html">Home</a>
                     <a class="menu-items" href="receipy.html">Healthy Recipes</a>
                     <a class="menu-items" href="cal.html">Calculator</a>
                     <a class="menu-items" href="workout.html">Workout Generator</a>
                     <a class="menu-items" href="meditation.html">Mindfulness</a>
                     <a class="menu-items" href="contact.html">Contact</a>
-
+                    
                 </div>
                 
             </header>
-            <div class="image-container">
-                <img  src="assects/images/food.jpg" height="535px" width="1590px">
+            <div class="image-top">
+                <img src="assects/images/food.jpg" alt="Healthy Recipes">
                 <div class="textOver">Healthy Recipes!</div>
             </div>
+
             <p class="discription">Welcome to GreenBite’s Healthy Recipes! Discover delicious, wholesome meals designed to nourish your body and delight your taste buds. 
             Whether you’re looking for quick snacks, hearty meals, or special treats, our recipes make healthy eating easy, enjoyable, and fun. Come back often for new ideas to keep your diet balanced and your lifestyle vibrant.</p>
             
@@ -35,27 +36,27 @@
             <!-- breakfast -->
             <h1>Breakfast</h1>
             <div class="main">
-            <div class="divh" onclick="showRecipe(1)">
+            <div class="divh" data-category="Breakfast" onclick="showRecipe(1)">
             <div class="receipe" id="first">
                 <div class="img"><img src="assects/images/recipe-whole-wheat-wraps.jpg" height="200px" width="200px"></div>
                 <div class="title">Whole Grain<br>Wrap</div>
-                <div class="dis">A fresh nutritious pack of colorful fruits with unlimited honey— perfect for any meal!</div>
+                <div class="dis">A soft, hearty wrap filled with fresh veggies and lean protein, tasty, wholesome, and perfect on the go!</div>
             </div>
             </div>
 
-            <div class="divf" onclick="showRecipe(2)">
+            <div class="divf" data-category="Breakfast" onclick="showRecipe(2)">
             <div class="receipef">
                 <div class="img"><img src="assects/images/pumpkin-bread.jpg" height="200px" width="200px"></div>
                 <div class="titlef">Spongy<br>Pumpkin Bread</div>
-                <div class="disf">A warm, nutritious bowl of colorful vegetables simmered with herbs and spices — perfect for any season!</div>
+                <div class="disf">A soft, moist loaf with the rich sweetness of pumpkin and a hint of spice, a perfect healthy treat!</div>
             </div>
             </div>
 
-            <div class="divh" onclick="showRecipe(3)">
+            <div class="divh" data-category="Breakfast" onclick="showRecipe(3)">
             <div class="receipe">
                 <div class="img"><img src="assects/images/kolakada.JPG" height="200px" width="200px"></div>
                 <div class="title">Kola Kanda<br>(Herbal Porridge)</div>
-                <div class="dis">A sweet dish to serve with sauce— perfect for a bite!</div>
+                <div class="dis">A soothing, herbal porridge made with leafy greens and rice, nourishing, light, and energizing for your day!</div>
             </div>
             </div>
 
@@ -65,214 +66,89 @@
             <!-- lunch -->
             <h1>Lunch</h1>
             <div class="main">
-            
-            <div class="divh">
-            <div class="receipe">
-                <div class="img"><img src="assects/images/brown.jpeg" height="200px" width="200px"></div>
-                <div class="title">Vegetable Brown<br>Fried Rice</div>
-                <div class="dis">A fresh nutritious pack of colorful fruits with unlimited honey— perfect for any meal!</div>
-            </div>
-            </div>
 
-            <div class="divf">
+            <div class="divf" data-category="Lunch" onclick="showRecipe(4)">
             <div class="receipef">
                 <div class="img"><img src="assects/images/COCONUT-MANGO-RICE.jpg" height="200px" width="200px"></div>
-                <div class="titlef">Coconut & Mango<br>Brown Rice</div>
-                <div class="disf">A warm, nutritious bowl of colorful vegetables simmered with herbs and spices — perfect for any season!</div>
+                <div class="titlef">Coconut & Mango<br>Brown Rice</div> 
+                <div class="disf">Fragrant brown rice tossed with sweet mango and creamy coconut, a tropical, healthy, and satisfying meal!</div>
             </div>
             </div>
 
-            <div class="divh">
+            <div class="divh" data-category="Lunch" onclick="showRecipe(5)">
             <div class="receipe">
-                <div class="img"><img src="assects/images/lemon-rice.jpg" height="200px" width="200px"></div>
-                <div class="title">Garlic Lemon Shrimp<br> with Brown Rice </div>
-                <div class="dis">A roasted nutritious slices combined with veggies and chickpeas— perfect for any one!</div>
-            </div>
-            </div>
-
-            <div class="divf">
-            <div class="receipef">
-                <div class="img"><img src="assects/images/tomatorice2.jpg" height="200px" width="200px"></div>
-                <div class="titlef">Spicy Brown<br>Tomato Rice</div>
-                <div class="disf">A slice with greenish avocado— perfect for a morning!</div>
-            </div>
-            </div>
-
-            <div class="divh">
-            <div class="receipe">
-                <div class="img"><img src="assects/images/bowl-biryani-with-fish-top_.jpg" height="200px" width="200px"></div>
-                <div class="title">Baked <br>Brown Rice with<br>Grilled Fish</div>
-                <div class="dis">A sweet dish to serve with sauce— perfect for a bite!</div>
-            </div>
-            </div>
-
-            <div class="divf">
-            <div class="receipef">
                 <div class="img"><img src="assects/images/shushi.jpg" height="200px" width="200px"></div>
-                <div class="titlef">Wraped<br>Sushi Rolls</div>
-                <div class="disf">A greenish wrap full with nutrients — perfect for a picnic!</div>
+                <div class="title">Wraped<br>Sushi Rolls </div>
+                <div class="dis">Fresh veggies and seasoned rice wrapped in nori, a colorful, healthy bite perfect for any time!</div>
             </div>
             </div>
-            
+
+            <div class="divf" data-category="Lunch" onclick="showRecipe(6)">
+            <div class="receipef">
+                <div class="img"><img src="assects/images/bowl-biryani-with-fish-top_.jpg" height="200px" width="200px"></div>
+                <div class="titlef">Spicy Brown Rice with<br>Grilled Fish</div>
+                <div class="disf">Flavorsome grilled fish atop hearty brown rice with a kick of spices, a satisfying, nutritious meal!</div>
+            </div>
+            </div>
+
+    
             
             </div>
             <h1>Dinner</h1>
             <div class="main">
             
-            <div class="divh">
+            <div class="divh" data-category="Dinner" onclick="showRecipe(7)">
             <div class="receipe">
                 <div class="img"><img src="assects/images/kale pasta.jpg" height="200px" width="200px"></div>
                 <div class="title">Kale<br>Pesto Pasta</div>
-                <div class="dis">A fresh nutritious pack of colorful fruits with unlimited honey— perfect for any meal!</div>
+                <div class="dis">Tender pasta tossed with vibrant kale pesto, a green, wholesome, and flavorful dish!</div>
             </div>
             </div>
 
-            <div class="divf">
+            <div class="divf" data-category="Dinner" onclick="showRecipe(8)">
             <div class="receipef">
-                <div class="img"><img src="assects/images/soup.jpg" height="200px" width="200px"></div>
-                <div class="titlef">semi-blended<br>vegi soup</div>
-                <div class="disf">A warm, nutritious bowl of colorful vegetables simmered with herbs and spices — perfect for any season!</div>
-            </div>
-            </div>
-
-            <div class="divh">
-            <div class="receipe">
-                <div class="img"><img src="assects/images/sandwhich3.jpg" height="200px" width="200px"></div>
-                <div class="title">Chickpea Salad Sandwich </div>
-                <div class="dis">A roasted nutritious slices combined with veggies and chickpeas— perfect for any one!</div>
-            </div>
-            </div>
-
-            <div class="divf">
-            <div class="receipef">
-                <div class="img"><img src="assects/images/las.jpeg" height="200px" width="200px"></div>
-                <div class="titlef">Eggplant<br>Lasagna</div>
-                <div class="disf">A slice with greenish avocado— perfect for a morning!</div>
-            </div>
-            </div>
-
-            <div class="divh">
-            <div class="receipe">
-                <div class="img"><img src="assects/images/sweet.jpeg" height="200px" width="200px"></div>
-                <div class="title">Baked <br>Sweet Potato &<br>Black Bean Chili</div>
-                <div class="dis">A sweet dish to serve with sauce— perfect for a bite!</div>
-            </div>
-            </div>
-
-            <div class="divf">
-            <div class="receipef">
-                <div class="img"><img src="assects/images/green.jpeg" height="200px" width="200px"></div>
-                <div class="titlef">Lettuce<br> Wrap Tacos</div>
-                <div class="disf">A greenish wrap full with nutrients — perfect for a picnic!</div>
-            </div>
-            </div>
-            
-            <div class="divh">
-            <div class="receipe">
-                <div class="img"><img src="assects/images/dish.jpeg" height="200px" width="200px"></div>
-                <div class="title">Zucchini Noodles With<br>Pesto & Cherry Tomatoes </div>
-                <div class="dis">A lemon & garlic  mixed brownie rice  bowl— perfect for a night date!</div>
-            </div>
-            </div>
-
-            <div class="divf">
-            <div class="receipef">
-                <div class="img"><img src="assects/images/egg.jpg" height="200px" width="200px"></div>
-                <div class="titlef">Spinach & Mushroom <br>Egg Muffins</div>
-                <div class="disf">A cup filled with lots of nutrients and vitamins — perfect for a evening!</div>
-            </div>
-            </div>
-
-            <div class="divh">
-            <div class="receipe">
                 <div class="img"><img src="assects/images/bel.jpeg" height="200px" width="200px"></div>
-                <div class="title">Stuffed Bell Peppers<br>With Quinoa, Beans & Herbs </div>
-                <div class="dis">A one spoon will include lots of nutrients which are good for your health— perfect for a desert!</div>
+                <div class="titlef">Stuffed Bell Peppers<br>With Quinoa, Beans & Herbs</div>
+                <div class="disf">Colorful bell peppers filled with protein-rich quinoa, beans, and herbs!</div>
             </div>
             </div>
-            
+
+            <div class="divh" data-category="Dinner" onclick="showRecipe(9)">
+            <div class="receipe">
+                <div class="img"><img src="assects/images/las.jpeg" height="200px" width="200px"></div>
+                <div class="title">Eggplant<br>Lasagna </div>
+                <div class="dis">Layers of tender eggplant, fresh veggies, and savory sauce, a wholesome twist on classic lasagna.</div>
             </div>
-            
-            
+            </div>
+
             </div>
             <h1>Healthy Treats</h1>
             <div class="main">
             
-            <div class="divh">
+            <div class="divh" data-category="Healty Treats" onclick="showRecipe(10)">
             <div class="receipe">
-                <div class="img"><img src="assects/images/yogurt parfait.jpg" height="200px" width="200px"></div>
-                <div class="title">Greek Yogurt <br>Parfait</div>
-                <div class="dis">A fresh nutritious pack of colorful fruits with unlimited honey— perfect for any meal!</div>
-            </div>
-            </div>
-
-            <div class="divf">
-            <div class="receipef">
                 <div class="img"><img src="assects/images/cookiee.jpeg" height="200px" width="200px"></div>
-                <div class="titlef">Healthy<br>Oatmeal Cookies</div>
-                <div class="disf">A warm, nutritious bowl of colorful vegetables simmered with herbs and spices — perfect for any season!</div>
+                <div class="title">Healthy<br>Oatmeal Cookies</div>
+                <div class="dis">A fresh nutritious pack of colorful fruits with unlimited honey, perfect for any meal!</div>
             </div>
             </div>
 
-            <div class="divh">
-            <div class="receipe">
-                <div class="img"><img src="assects/images/Banana muf.jpg" height="200px" width="200px"></div>
-                <div class="title">Ripe<br>Banana Muffins</div>
-                <div class="dis">A roasted nutritious slices combined with veggies and chickpeas— perfect for any one!</div>
-            </div>
-            </div>
-
-            <div class="divf">
+            <div class="divf" data-category="Healty Treats" onclick="showRecipe(11)">
             <div class="receipef">
-                <div class="img"><img src="assects/images/carrot cake.jpeg" height="200px" width="200px"></div>
+                <div class="img"><img src="assects/images/carrot cake.jpeg" height=200px" width="200px"></div>
                 <div class="titlef">Soft<br>Carrot Cake</div>
-                <div class="disf">A slice with greenish avocado— perfect for a morning!</div>
+                <div class="disf">A moist, spiced carrot cake topped with light frosting—perfect for a healthy treat!</div>
             </div>
             </div>
 
-            <div class="divh">
-            <div class="receipe">
-                <div class="img"><img src="assects/images/sweet.jpg" height="200px" width="200px"></div>
-                <div class="title">Baked <br>Sweet Potato Fries </div>
-                <div class="dis">A sweet dish to serve with sauce— perfect for a bite!</div>
-            </div>
-            </div>
-
-            <div class="divf">
-            <div class="receipef">
-                <div class="img"><img src="assects/images/cali.jpg" height="200px" width="200px"></div>
-                <div class="titlef">Parmesan<br>Roasted Cauliflower</div>
-                <div class="disf">A greenish wrap full with nutrients — perfect for a picnic!</div>
-            </div>
-            </div>
-            
-            <div class="divh">
+            <div class="divh" data-category="Healty Treats" onclick="showRecipe(12)">
             <div class="receipe">
                 <div class="img"><img src="assects/images/bars.jpg" height="200px" width="200px"></div>
                 <div class="title">Healty<br>Rockey Roadbars</div>
-                <div class="dis">A lemon & garlic  mixed brownie rice  bowl— perfect for a night date!</div>
+                <div class="dis">A sweet and chewy treat packed with oats, nuts, and chocolate,perfect for a healthy snack!</div>
             </div>
             </div>
 
-            <div class="divf">
-            <div class="receipef">
-                <div class="img"><img src="assects/images/cinamon.jpg" height="200px" width="200px"></div>
-                <div class="titlef">Tasty<br>Cinnamon Rolls</div>
-                <div class="disf">A cup filled with lots of nutrients and vitamins — perfect for a evening!</div>
-            </div>
-            </div>
-
-            <div class="divh">
-            <div class="receipe">
-                <div class="img"><img src="assects/images/salad.jpg" height="200px" width="200px"></div>
-                <div class="title">Chia Seed Pudding<br> with Fruits </div>
-                <div class="dis">A one spoon will include lots of nutrients which are good for your health— perfect for a desert!</div>
-            </div>
-            </div>
-            
-            </div>
-            
-            
             </div>
             <footer>
                 <div class="footer">
