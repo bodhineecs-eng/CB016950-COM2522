@@ -59,13 +59,14 @@ resumeBtn.addEventListener("click", () => {
     }
 });
 
-const hamburger = document.getElementById('hamburger');
-const menuBar = document.getElementById('menu-bar');
+//hamburger
+const hamburger = document.querySelector('.hamburger');
+const menuItems = document.querySelectorAll('.menu-items');
+const menuBar = document.querySelector('.menu-bar');
 
 hamburger.addEventListener('click', () => {
     menuBar.classList.toggle('show');
 });
-
 // Completed button
 const completedBtn = document.getElementById("completeBtn");
 

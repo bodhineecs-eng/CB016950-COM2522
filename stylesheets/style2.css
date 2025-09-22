@@ -294,7 +294,7 @@ body {
     }
 
     /* Recipe cards */
-    .main {
+   .main {
         flex-direction: column;
         align-items: center;
     }
@@ -302,11 +302,13 @@ body {
     .divh, .divf {
         width: 90%;
         margin: 10px 0;
+        height: auto; /* ✅ allow auto height */
     }
 
     .receipe, .receipef {
         width: 100%;
         margin: 10px 0;
+        height: auto; /* ✅ no fixed height */
     }
 
     .image-container img {
@@ -321,7 +323,8 @@ body {
     }
 
     .image-top img {
-        width: 100%;   /* image scales on mobile too */
+        width: 100%;
         height: auto;
     }
+
 }

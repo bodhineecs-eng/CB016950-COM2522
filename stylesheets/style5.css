@@ -212,33 +212,28 @@ h1{
 
 /* Hamburger */
 .hamburger {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-    color: #E6F0DA;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 15;
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #E6F0DA;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 15;
 }
 
 /* Menu bar for mobile */
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-
+@media (max-width: 900px) {
     .menu-bar {
         flex-direction: column;
         align-items: flex-start;
         background-color: #6B8E23;
         width: 100%;
         position: absolute;
-        top: 130px;
+        top: 130px; 
         left: 0;
         display: none;
-        z-index: 10;
     }
 
     .menu-bar.show {
@@ -249,9 +244,13 @@ h1{
         width: 100%;
         margin: 10px 0;
         text-align: left;
-        padding-left: 20px;
+        padding: 10px 20px;
     }
 
+    .hamburger {
+        display: block;     /* show hamburger */
+    }
+    
     .image-top img {
         height: auto; /* scale image properly */
     }

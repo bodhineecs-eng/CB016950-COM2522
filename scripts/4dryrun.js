@@ -115,9 +115,9 @@ function formatTime(seconds){
     const s = (seconds%60).toString().padStart(2,'0');
     return `${m}:${s}`;
 }
-
-// Hamburger toggle
+//hamburger
 const hamburger = document.querySelector('.hamburger');
+const menuItems = document.querySelectorAll('.menu-items');
 const menuBar = document.querySelector('.menu-bar');
 
 hamburger.addEventListener('click', () => {
