@@ -127,7 +127,7 @@ h1{
 /* Image itself */
 .image-top img {
     width: 100%;          /* scale to container width */
-    height: 650px;         /* maintain aspect ratio */
+    height: 450px;         /* maintain aspect ratio */
     display: block;       /* removes bottom gap */
 }
 

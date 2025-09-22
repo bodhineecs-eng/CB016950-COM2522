@@ -80,8 +80,8 @@ function Tdee() {
 
 // Hamburger toggle
 const hamburger = document.querySelector('.hamburger');
-const menuItems = document.querySelectorAll('.menu-items');
+const menuBar = document.querySelector('.menu-bar');
 
 hamburger.addEventListener('click', () => {
-    menuItems.forEach(item => item.classList.toggle('active'));
+    menuBar.classList.toggle('show');
 });

@@ -39,7 +39,7 @@ body {
     overflow-x: hidden;
 }
 
-/*fonts*/
+/* /fonts/ */
 @font-face {
     font-family:EduNSWACTCursive-VariableFont_wght ;
     src: url(../assects/fonts/EduNSWACTCursive-VariableFont_wght.ttf);
@@ -51,13 +51,7 @@ h1{
     font-size: 90px;
     margin: 20px;
 }
-
-.video-frame {
-    border: none;          /* removes border */
-    border-radius: 10px;   /* optional: rounded corners */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* optional: shadow effect */
-}
-/*Menus*/
+/* /Menus/ */
 
 
 .menu-items{
@@ -76,13 +70,13 @@ h1{
     color:  #8B5E3C ;
    
 }
-/*sound boxes(sea,birds,rain)*/
+/* /sound boxes(sea,birds,rain)/ */
 .SoundBox{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
-/*meditation image plus timer*/
+/*meditation image plus timer/ */
 .meditation{
     gap:20px;
     padding-top: 20px;
@@ -100,7 +94,7 @@ h1{
 /* Image itself */
 .image-top img {
     width: 100%;          /* scale to container width */
-    height: 650px;         /* maintain aspect ratio */
+    height: 450px;         /* maintain aspect ratio */
     display: block;       /* removes bottom gap */
 }
 
@@ -115,11 +109,11 @@ h1{
     font-size: 70px;
     font-weight: bold;
 }
-/*discription*/
+/* /discription/ */
 .discription{
     font-size: 20px;
 }
-/*welcome message*/
+/* /welcome message/ */
 .memo{
     font-size: 30px;
     color: #8B5E3C;
@@ -152,7 +146,7 @@ h1{
     margin: 5px auto;
     border: 0.5px solid white;
 }
-/*contact details*/
+/* /contact details/ */
 .contact{
     font-size: 20px;
     color: black;
@@ -289,7 +283,3 @@ h1{
         padding: 15px;
     }
 }
-
-
-
-

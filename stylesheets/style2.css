@@ -38,7 +38,7 @@ body {
 /* Image itself */
 .image-top img {
     width: 100%;          /* scale to container width */
-    height: 650px;         /* maintain aspect ratio */
+    height: 450px;         /* maintain aspect ratio */
     display: block;       /* removes bottom gap */
 }
 
@@ -89,6 +89,19 @@ body {
 .menu-items:hover{
     color:  #8B5E3C ;
 }
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #E6F0DA;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 15;
+}
+
 
 /*contact details*/
 .contact{
@@ -243,44 +256,41 @@ body {
 }
 
 /* Hamburger */
-.hamburger {
+/* .hamburger {
     display: none;
     font-size: 30px;
     cursor: pointer;
     color: #E6F0DA;
     margin-left: 20px;
-}
+} */
 
 /* Mobile View */
 @media (max-width: 900px) {
     .menu-bar {
         flex-direction: column;
         align-items: flex-start;
-        position: relative;
+        background-color: #6B8E23;
+        width: 100%;
+        position: absolute;
+        top: 130px; 
+        left: 0;
+        display: none;
+    }
+
+    .menu-bar.show {
+        display: flex;
     }
 
     .menu-items {
-        display: none;  /* hide items initially */
         width: 100%;
+        margin: 10px 0;
+        text-align: left;
         padding: 10px 20px;
-        border-bottom: 1px solid #8B5E3C;
-    }
-
-    .menu-items.active {
-        display: block;  /* show items when active */
     }
 
     .hamburger {
         display: block;  /* show hamburger on mobile */
         align-self: flex-end; /* optional: push to right */
-    }
-
-    /* Header logo */
-    .header img {
-        height: 100px;
-        width: 100px;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     /* Recipe cards */

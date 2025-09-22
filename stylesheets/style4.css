@@ -92,7 +92,7 @@ h1{
 /* Image itself */
 .image-top img {
     width: 100%;          /* scale to container width */
-    height: 700px;         /* maintain aspect ratio */
+    height: 450px;         /* maintain aspect ratio */
     display: block;       /* removes bottom gap */
 }
 
@@ -201,30 +201,29 @@ h1{
     display: block;
 }
 
-/* Hamburger icon - hidden on desktop */
+/* Hamburger */
 .hamburger {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-    color: #E6F0DA;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 15;
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #E6F0DA;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 15;
 }
-
 /* Mobile menu */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .menu-bar {
         flex-direction: column;
+        align-items: flex-start;
         background-color: #6B8E23;
         width: 100%;
         position: absolute;
-        top: 130px;
+        top: 130px; 
         left: 0;
         display: none;
-        z-index: 10;
     }
 
     .menu-bar.show {
@@ -235,12 +234,11 @@ h1{
         width: 100%;
         margin: 10px 0;
         text-align: left;
-        padding-left: 20px;
+        padding: 10px 20px;
     }
 
     .hamburger {
-        display: block;
+        display: block;     /* show hamburger */
     }
 }
-
 

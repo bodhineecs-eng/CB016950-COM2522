@@ -15,7 +15,7 @@
 .header img {
   position: absolute;
   left: 20px;   /* corner */
-  top: 35%;
+  top: 50%;
   transform: translateY(-50%);/*vertically center the logo*/
 }
 
@@ -29,7 +29,7 @@
 /* Image itself */
 .image-top img {
     width: 100%;          /* scale to container width */
-    height: 650px;         /* maintain aspect ratio */
+    height: 450px;         /* maintain aspect ratio */
     display: block;       /* removes bottom gap */
 }
 
@@ -202,15 +202,19 @@ body {
     border: 1px solid #8B5E3C;
 }
 
-/* Image(children) */
-img {
-    display: block;/*makes the image behave like a block element:*/
-    margin: 20px auto; /*make the image center*/
-}
 
-/* Hamburger menu for mobile */
+
+/* Hamburger */
 .hamburger {
-    display: none; /* hidden by default */
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #E6F0DA;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 15;
 }
 
 /* Mobile View */
@@ -218,30 +222,35 @@ img {
     .menu-bar {
         flex-direction: column;
         align-items: flex-start;
-        position: relative;
+        background-color: #6B8E23;
+        width: 100%;
+        position: absolute;
+        top: 130px; 
+        left: 0;
+        display: none;
+    }
+
+    .menu-bar.show {
+        display: flex;
     }
 
     .menu-items {
-        display: none;      /* hide menu items by default */
         width: 100%;
+        margin: 10px 0;
+        text-align: left;
         padding: 10px 20px;
-        border-bottom: 1px solid #8B5E3C;
-    }
-
-    .menu-items.active {
-        display: block;     /* show when hamburger clicked */
     }
 
     .hamburger {
         display: block;     /* show hamburger */
     }
 
-    .header img {
+    /* .header img {
         height: 100px;
         width: 100px;
         left: 50%;
         transform: translateX(-50%);
-    }
+    } */
 
     .textOver {
         font-size: 30px;    /* smaller on mobile */
@@ -250,7 +259,7 @@ img {
     }
 
     .form {
-        width: 95%;         /* make form responsive */
+        
         margin: 20px auto;
     }
 }
